@@ -1,0 +1,28 @@
+The following Queries must run in your MySQL database with database name 'proj'
+
+insert into stadium_stadium values(1, 'cricket', 'Wankhede Stadium', 'Mumbai', 400020, 20000);
+insert into stadium_stadium values(2, 'cricket', 'Brabourne Stadium', 'Mumbai', 400020, 15000);
+insert into stadium_stadium values(3, 'cricket', 'Chinnaswamy Stadium', 'Banglore', 560001, 10000);
+insert into stadium_stadium values(4, 'cricket', 'Rajiv Gandhi International Stadium', 'Hyderabad', 500016, 18000);
+insert into stadium_stadium values(5, 'cricket', 'Eden Gardens', 'Kolkata', 700021, 17000);
+insert into stadium_stadium values(6, 'cricket', 'Dharmshala Stadium', 'Dharmshala', 176215, 14000);
+insert into stadium_stadium values(7, 'cricket', 'Narendra Modi Stadium', 'Ahmedabad', 380013, 25000);
+insert into stadium_stadium values(8, 'cricket', 'JSCA International Stadium', 'Ranchi', 834006, 19000);
+insert into stadium_stadium values(9, 'Football', 'Ambedkar Stadium', 'Delhi', 110001, 28000);
+insert into stadium_stadium values(10, 'Football', 'Kankaria Football Ground', 'Ahmedabad', 380013, 25000);
+insert into stadium_stadium values(11, 'Football', 'Morbadi Borsa stadium', 'Ranchi', 834001, 17000);
+insert into stadium_stadium values(12, 'Football', 'Cooperage Football Ground', 'Mumbai', 400020, 30000);
+insert into stadium_matches values(1, 'cricket', 'RCB Vs SRH', 'Braboune Stadium', 2, 'Mumbai', '2022-05-06', '19:00');
+insert into stadium_matches values(2, 'cricket', 'SRH Vs RR', 'Rajiv Gandhi International Stadium', 4, 'Hyderabad', '2022-04-30', '19:30');
+insert into stadium_matches values(3, 'cricket', 'RCB Vs KKR', 'Chinnaswamy Stadium', 3, 'Banglore', '2022-04-25', '20:00');
+insert into stadium_snacks values(1, 'Burger+coke combo', 500);
+insert into stadium_snacks values(2, 'Apple pie shake', 300);
+insert into stadium_snacks values(3, 'Funnel Dog', 400);
+insert into stadium_snacks values(4, 'Chicken and Waffles Donut', 500);
+insert into stadium_seats values(NULL, 1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+insert into stadium_seats values(NULL, 2, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+insert into stadium_seats values(NULL, 3, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+insert into stadium_seats values(NULL, 4, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+insert into stadium_seats values(NULL, 5, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+insert into stadium_matches values(4, 'FootBall', 'India Vs Zambia','Ambedkar Stadium', 9, 'Delhi', '2022-05-06', '15:00');
+insert into stadium_matches values(5, 'FootBall', 'Afghanistan Vs India','Cooperage Football Ground', 12,  'Mumbai', '2022-05-07', '17:00');

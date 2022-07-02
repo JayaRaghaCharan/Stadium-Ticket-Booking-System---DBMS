@@ -1,0 +1,19 @@
+1.Install Django in an virtual Environment with the help of virtual environment wrapper
+
+2.Open the project in VS code in the vitual environment in which Django is installed
+
+3.work in that virtual environment
+
+4.Make sure all required tools and software are installed
+
+5.Change password in settings.py according to your MySQL
+
+6.Create a database in MySQL as in settings.py
+
+RUN COMMANDS :
+
+1.python manage.py makemigrations
+
+2.pyhton manage.py migrate
+
+3.python manage.py runserver

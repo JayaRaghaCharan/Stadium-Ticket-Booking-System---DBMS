@@ -1,0 +1,8 @@
+django
+Pillow
+Python3
+pip
+whitenoise
+django-allauth
+coverage
+coveralls
